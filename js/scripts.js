@@ -50,7 +50,7 @@ window.addEventListener('DOMContentLoaded', event => {
 
     // Function to fetch a random quote
     function fetchQuote() {
-        //const proxyUrl = "https://cors-anywhere.herokuapp.com/";
+        const proxyUrl = "https://cors-anywhere.herokuapp.com/";
         const apiUrl = "https://zenquotes.io/api/random";
 
         fetch(proxyUrl + apiUrl)
